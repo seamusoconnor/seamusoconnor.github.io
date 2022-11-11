@@ -1,5 +1,5 @@
 ---
-title: Migrating site from Raspberry Pi to GitHub pages
+title: Migrating site from Raspberry Pi to GitHub Pages
 date: 2022-11-11 21:00:00 +0100
 categories: [site]
 tags: [github, coding, development]
@@ -15,7 +15,7 @@ I bought a Raspberry PI B+, downloaded WordPress, and with some luck and a few l
 The hardware was somewhat limited for what was running on it so eventually I got a RaspBerry Pi3 and migrated the site from one RPI to the other. It ended up being a challenge because outside of updating the site with a new post, what typically would happen is:
 
 1. Something went wrong
-2. I would realise I had no memory of how I set it up orginally
+2. I would realise I had no memory of how I set it up originally
 3. I would spend hours fixing some arcane issue ( like when the RPI would not boot fully if a keyboard was not attached on boot )
 4. I would fix it
 5. I would forget how I did it
