@@ -1,6 +1,6 @@
 ---
 title: Jinja Templating To Make Change Management Easier
-date: 20-11-11 08:31:00 +0100
+date: 2018-10-29 08:00:00 +0100
 categories: [templates]
 tags: [networking, jinja, scripting]
 ---
