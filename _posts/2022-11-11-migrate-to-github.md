@@ -1,5 +1,5 @@
 ---
-title: Migrating site from Raspberry Pi to GitHub Pages
+title: Migrating Site from Raspberry Pi to GitHub Pages
 date: 2022-11-11 21:00:00 +0100
 categories: [site]
 tags: [github, coding, development]
@@ -8,7 +8,7 @@ tags: [github, coding, development]
 
 ## Background
 
-Several years ago, I setup a simple blog to capture what technical stuff I was interested in at the time. I also wanted to get an understanding of web devlopment, how to deploy a website, and some coding. I looked at some web-hosting services but wanted to maintain my own hardware and see what came with that experience.
+Several years ago, I setup a simple blog to capture what technical stuff I was interested in at the time. I also wanted to get an understanding of web development, how to deploy a website, and some coding. I looked at some web-hosting services but wanted to maintain my own hardware and see what came with that experience.
 
 I bought a Raspberry PI B+, downloaded WordPress, and with some luck and a few long evenings, was able to get a self-hosted website going. I probably spent more time getting the website up and running than actually writing posts but it was good fun. 
 
@@ -22,20 +22,20 @@ The hardware was somewhat limited for what was running on it so eventually I got
 
 this happened enough times that I moved the RPI from the attic to my office, not because the site broke often, but more because when it did, it wasn't possible for me to fix it remotely.
 
-although WordPress is a nice, relatively simple to have a small blog, it was also a black box for me, and when I migrated form RPI B+ to RPI3, I spen da bunch of time migrating databases, which amounted to blindly copying files from one PI to another, hoping I would get enough data to figure out what was happening.
+although WordPress is a nice, relatively simple to have a small blog, it was also a black box for me, and when I migrated form RPI B+ to RPI3, I spend a bunch of time migrating databases, which amounted to blindly copying files from one PI to another, hoping I would get enough data to figure out what was happening.
 
 
-Additionally, over time I had added some other services to the RPI3, a piHole server, a PLEX media server and whatever technology at the time I was playing with. It meant that I had a bunch of services running that made me cautious of breaking something.
+Additionally, over time I had added some other services to the RPI3, a Pi-Hole server, a PLEX media server and whatever technology at the time I was playing with. It meant that I had a bunch of services running that made me cautious of breaking something.
 
 
 ## What was I looking for
 
-Ideally, I wanted to get out of the hardware side of the web-hosting, free up my RPI for more experimental purposes, while having a deploy-and-forget blog. Working on ambiguous technical issues for my day job, and whatever additional study I was doing meant spending two days trying to debug the Raspberry PI without breaking the site or some other forgotten tool, wasn't advancing my technical knowledge or reducing the friction of making new posts
+Ideally, I wanted to get out of the hardware side of the web-hosting, free up my RPI for more experimental purposes, while having a deploy-and-forget blog. Working on ambiguous technical issues for my day job, and whatever additional study I was doing meant spending two days trying to debug the Raspberry PI without breaking the site or some other  wasn't advancing my technical knowledge or reducing the friction of making new posts
 
 
-My other requirement was to have some standard, plain-text-based, portable site so If there was complications with the platform, I could pull my content and at least move to something else.
+My other requirement was to have some standard, plain-text based, portable site so If there was complications with the platform, I could pull my content and at least move to something else.
 
-I had checked hosting on AWS/Google Cloud but altough they have static website hosting, it just seemed I would be adding some unneeded overhead.
+I had checked hosting on AWS/Google Cloud but although they have static website hosting, it just seemed I would be adding some unneeded overhead.
 
 The other promising option was hosting through Notion but I explored it and for whatever reason I can't think of now, it was a non-runner.
 
@@ -53,7 +53,7 @@ and the Jekyll  <a href="https://jekyllrb.com/docs/installation/macos/" target="
 I'm using an Intel Mac, VSCode and have a free GitHub account.
 
 I followed the guide <a href="https://jekyllrb.com/docs/installation/macos/" target="_blank">here</a>
-Istalled HomeBrew, the non-system Ruby they mentioned, and also used the theme mentioned in the YouTube video.
+Installed HomeBrew, the non-system Ruby they mentioned, and also used the theme mentioned in the YouTube video.
 
 I have a GitHub account but the GitHub pages part of it I took directly from the YouTube video.
 
@@ -64,7 +64,7 @@ Once everything was installed locally, I was able to run the basic site locally 
 bundle exec jekyll serve
 
 ```
-which spins up a webserver on on: ```127.0.0.1:4000/```
+which spins up a webserver on: ```http://127.0.0.1:4000/```
 
 Deploying to GitHub Pages, I there's a CI/CD pipeline that runs, which in basic terms, builds the site for the platform its going to run on and deploys it to that server. I got a build failure with a helpful <a href="https://github.com/seamusoconnor/seamusoconnor.github.io/actions/runs/3349608580/jobs/5549782019#step:4:34" target="_blank">message</a>   
 
