@@ -43,7 +43,6 @@ export PATH="$PATH:/Users/Simac/Tools"
 
 open a new terminal session for the new PATH to take effect or use ```source ~/.bash_profile```
 
-
 Now you can see the changes have taken effect:
 ```bash
 ~ $ echo $PATH
