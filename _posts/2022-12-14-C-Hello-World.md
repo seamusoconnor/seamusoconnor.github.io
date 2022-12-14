@@ -52,7 +52,7 @@ or
  /*
  Multi-line
  goes here
- /*
+ */
  ```
 
 
