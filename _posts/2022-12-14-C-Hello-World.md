@@ -8,7 +8,7 @@ tags: [software, mac, development, hello world]
 
 ## Background
 
-I am learning C as part of my software Engineering studies. As is tradition, here is my first program with a break-down of its elements.
+I am learning C as part of my Software Engineering studies. As is tradition, here is my first program with a break-down of its elements.
 
 
 
