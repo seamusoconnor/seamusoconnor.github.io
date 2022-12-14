@@ -66,7 +66,7 @@ or
 The C preprocessor executes before a program is compiled. In this case, the preprocessor includes other files into the file being compiled.
 
 <br><br>
-```<stdio.h>``` is a C library that provides file operation support and in the case of our program, input/output capabilities.
+``` <stdio.h> ``` is a C library that provides file operation support and in the case of our program, input/output capabilities.
 
 <br>
 
