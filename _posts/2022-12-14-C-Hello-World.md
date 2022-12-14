@@ -1,5 +1,5 @@
 ---
-title: C Hello World !
+title: C Hello World
 date: 2022-12-14 08:00:00 +0100
 categories: [C]
 tags: [software, mac, development, hello world]
