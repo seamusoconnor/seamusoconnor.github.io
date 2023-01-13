@@ -1,8 +1,8 @@
 ---
-title: C Return Multiple Variables From a Function Using Pointers
+title: C Multiple Variables From a Function Using Pointers
 date: 2023-01-13 23:30:00 +0100
 categories: [C]
-tags: [software, mac, development, pointers, functions]
+tags: [software, development, pointers, functions]
 ---
 
 
